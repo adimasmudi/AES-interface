@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Prediction Result</title>
+    <title>Hasil Penilaian</title>
     <style>
       body {
         font-family: Arial, sans-serif;
@@ -66,21 +66,21 @@
   </head>
   <body>
     <div class="container">
-      <h1>Prediction Result</h1>
+      <h1>Hasil Penilaian</h1>
       <div class="result-section">
-        <h2>Score</h2>
+        <h2>Nilai</h2>
         <p class="{{ score_class }}">{{ score }}</p>
       </div>
       <div class="result-section">
-        <h2>Reference Answer</h2>
+        <h2>Kunci Jawaban</h2>
         <p>{{ reference_answer }}</p>
       </div>
       <div class="result-section">
-        <h2>Student Answer</h2>
+        <h2>Jawaban Siswa</h2>
         <p>{{ answer }}</p>
       </div>
       <div class="result-section">
-        <h2>Time Cost</h2>
+        <h2>Waktu dibutuhkan</h2>
         <p class="time">{{ time_cost }}</p>
       </div>
     </div>
