@@ -77,4 +77,4 @@ def predict():
     return jsonify(response) if request.is_json else redirect(url_for('result'))
 
 if __name__ == "__main__":
-    app.run(port=8000)
+    app.run(port=5000)
